@@ -35,5 +35,9 @@ public class Banco {
         this.balance -= balance+5;
         System.out.println("Sake made successfully!\n");
     }
+    public String toString(){
+        return "Account owner: "+name+"\nNumber Account: "+numberCount+
+                "\nBalance Account: "+balance;
+    }
 
 }

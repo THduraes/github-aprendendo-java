@@ -22,10 +22,13 @@ public class Main {
             float balance = sc.nextFloat();
             account = new Banco(name, numberAccount, balance);
             System.out.println("Register sucessful!\n\n");
+            System.out.println(account.toString());
+            // É o mesmo que: System.out.println(account);
         } else if (op==2) {
             System.out.println("Your balance initially is 0,0$");
             account = new Banco(name, numberAccount);
             System.out.println("Register sucessful!\n\n");
+            System.out.println(account);
         }else{
             System.out.println("Option invalid.");
             System.exit(0);
@@ -54,6 +57,7 @@ public class Main {
                     System.out.printf("What a new name: ");
                     account.setName(sc.nextLine());
                     account.getDate();
+
                     break;
                 case 4:
                     break;
