@@ -52,7 +52,7 @@ public class Main {
             }
 
         }
-        System.out.println("\n--DATES--\n");
+        System.out.println("\n---DATES---\n");
         for(Pessoa pessoa : list){
             System.out.println(pessoa);
         }
