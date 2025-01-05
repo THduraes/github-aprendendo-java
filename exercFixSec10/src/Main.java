@@ -57,6 +57,9 @@ public class Main {
             System.out.println(pessoa);
         }
     }
+    //FUNCAO COM UMA VÁRIAVEL GLOBAL #STATIC INDEX QUE PODE SER
+    // ALTERADA EM QUALQUER FUNCAO DENTRO DA CLASSE MAIN (nao conhecia, aprendi ontem 04/01
+    // POIS QUERIA QUE UMA FUNCAO RETORNASSE 2 VALORES
     public static boolean hasId(List<Pessoa> list, int id, boolean e){
         for(int i = 0; i<list.size();i++){
             if(list.get(i).getId()==id){
@@ -66,6 +69,17 @@ public class Main {
         }
 
         return e;
+    }
+    // DESSA MANEIRA É PRECISO FAZER A VERIFICACAO NO IF(!= -1) QUANDO FOR USAR
+    // NO MOMENTO QUE DESEJA ENCONTRAR SE JÁ EXISTE UM USER ID. E QUANDO QUISER O INDICE
+    // SO USAR O RETORNO DA FUNCAO
+    public static int hasId(List<Pessoa> list, int id) {
+        for (int i = 0; i < list.size(); i++) {
+            if (list.get(i).getId() == id) {
+                return i; // Retorna o índice encontrado
+            }
+        }
+        return -1; // Retorna -1 se não encontrar
     }
 
 }
