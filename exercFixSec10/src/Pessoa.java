@@ -11,6 +11,12 @@ public class Pessoa {
         this.balance = balance;
     }
     public String toString(){
-        return "Name: "+this.name+"\nId: "+this.id+"\nBalance: "+this.balance;
+        return "Name: "+this.name+"  Id: "+this.id+"  Balance: "+this.balance;
+    }
+    public Integer getId(){
+        return this.id;
+    }
+    public void setNewBalance(int porcen){
+        balance += balance * (porcen/100);
     }
 }
