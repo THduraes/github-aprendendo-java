@@ -1,0 +1,16 @@
+# Ignorar pastas geradas automaticamente
+/.idea/
+/out/
+
+# Arquivos de configuração específicos do IntelliJ IDEA
+*.iml
+
+# Ignorar logs, caches e arquivos temporários
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
