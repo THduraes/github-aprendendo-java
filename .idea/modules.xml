@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/exercFixSec10/exercFixSec10.iml" filepath="$PROJECT_DIR$/exercFixSec10/exercFixSec10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercFixSec12/exercFixSec12.iml" filepath="$PROJECT_DIR$/exercFixSec12/exercFixSec12.iml" />
       <module fileurl="file://$PROJECT_DIR$/github-aprendendo-java.iml" filepath="$PROJECT_DIR$/github-aprendendo-java.iml" />
     </modules>
   </component>

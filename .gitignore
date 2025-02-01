@@ -1,7 +1,6 @@
 # Ignorar pastas geradas automaticamente
 /.idea/
 /out/
-
 # Arquivos de configuração específicos do IntelliJ IDEA
 *.iml
 

@@ -38,7 +38,6 @@ public class Main {
             System.out.println("How funcionary ID: ");
             n = sc.nextInt();
             boolean exist = hasId(list, n, false);
-            System.out.println(index);
 
             if (exist) {
                 System.out.println("How much %: ");
